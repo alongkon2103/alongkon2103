@@ -1,0 +1,52 @@
+name: Generate GitHub Metrics
+
+on:
+  # Refresh once a day
+  schedule:
+    - cron: "0 0 * * *"
+  # Allow manual runs from the Actions tab
+  workflow_dispatch:
+  # Regenerate on every push to the default branch
+  push:
+    branches:
+      - main
+
+# Needs write access to commit github-metrics.svg back to the repo
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate metrics (stats + top languages)
+        uses: lowlighter/metrics@latest
+        with:
+          # The default GITHUB_TOKEN is enough for base stats + languages (public data).
+          # OPTIONAL upgrade: create a classic PAT with `read:user` + `repo` scopes,
+          # save it as a secret named METRICS_TOKEN, then change the line below to
+          #   token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: alongkon2103
+          filename: github-metrics.svg
+          config_timezone: Asia/Bangkok
+
+          # --- Base panels: stats overview ---
+          base: header, activity, community, repositories, metadata
+
+          # --- Top Languages ---
+          plugin_languages: yes
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+
+          # --- Minimal dark + purple accent ---
+          extras_css: |
+            body { background: #0D1117 !important; }
+            .container { background: #0D1117 !important; }
+            svg, section, .field, .row, .value, .key, .options, td, th {
+              color: #C9D1D9 !important;
+              background: transparent !important;
+            }
+            h2, .title, .section-title { color: #8B5CF6 !important; }
+            a { color: #A78BFA !important; }
