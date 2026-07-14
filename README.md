@@ -4,7 +4,7 @@
 <!-- ==================== TYPING ANIMATION ==================== -->
 <p align="center">
   <a href="https://github.com/alongkon2103">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=8B5CF6&center=true&vCenter=true&width=600&height=60&lines=Backend+Developer;Roblox+Developer;Full+Stack+Developer;TypeScript+%7C+Node.js+%7C+Lua" alt="Roles" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=8B5CF6&center=true&vCenter=true&width=650&height=60&lines=Full-Stack+Web+Developer;Backend+%26+API+Developer;C%23+%7C+Node.js+%7C+TypeScript;Roblox+Developer+(on+the+side)" alt="Roles" />
   </a>
 </p>
 
@@ -13,9 +13,10 @@
 <!-- ==================== ABOUT ME ==================== -->
 ## 🧑‍💻 About Me
 
-- 💜 Backend / Full-Stack / Roblox developer.
-- 🧩 I build APIs, games, and live-integration systems.
-- ⚙️ Currently working with **TypeScript, Node.js, Next.js** and **Lua (Roblox)**.
+- 💜 **Full-Stack Web Developer** — my main focus is **backend, APIs, and web applications**.
+- 🛠️ I design and build **REST APIs**, database-driven systems, and full web apps end to end.
+- 🌐 Comfortable across the stack: **C# / .NET, Node.js, TypeScript** on the backend and **React / Next.js** on the frontend.
+- 🎮 I also do **Roblox (Lua) development on the side**.
 - 📫 Reach me on GitHub: [@alongkon2103](https://github.com/alongkon2103)
 
 ---
@@ -23,17 +24,37 @@
 <!-- ==================== TECH STACK ==================== -->
 ## 🛠️ Tech Stack
 
+**Languages**
+
 <p align="left">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="C#" />
   <img src="https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white" alt="Lua" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+</p>
+
+**Backend & APIs**
+
+<p align="left">
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
+  <img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET" />
+</p>
+
+**Frontend**
+
+<p align="left">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+</p>
+
+**Databases**
+
+<p align="left">
+  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
 </p>
 
 ---
@@ -43,10 +64,10 @@
 
 | Project | Description |
 | --- | --- |
-| 🎮 **Roblox Games** | Building and shipping games on the Roblox platform (Lua). |
-| 🏪 **Class A Store** | Online store / e-commerce project. |
-| 🔴 **TikTok Live Integration** | Real-time integration with TikTok Live events. |
-| 🔌 **Backend APIs** | Designing and maintaining REST APIs with Node.js / Express. |
+| 🌐 **Judy Game Studio** | Website for Judy Game Studio — built as a full web app. |
+| 🏪 **Aclas-style Store** | Buy & sell / retail store web platform (similar to Aclas). |
+| 🔌 **Backend APIs** | Designing and maintaining REST APIs with C# / .NET and Node.js / Express. |
+| 🎮 **Roblox Games** | Building games on the Roblox platform with Lua *(side projects)*. |
 
 ---
 
